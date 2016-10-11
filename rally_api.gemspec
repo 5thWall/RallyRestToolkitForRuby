@@ -14,10 +14,8 @@ Gem::Specification.new do |s|
   s.license = 'MIT'
   s.has_rdoc = false
 
-  s.add_dependency('httpclient', '2.6.0.1')
+  s.add_dependency('httpclient', '2.8.2.4')
 
-  s.add_development_dependency('bundler',     '1.5.1')
-  s.add_development_dependency('rake',        '10.3.2')
   s.add_development_dependency('rspec',       '3.1.0')
   s.add_development_dependency('simplecov',   '0.9.1')
   s.add_development_dependency('pry',         '0.10.1')
